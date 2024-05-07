@@ -23,6 +23,11 @@ Thank you for your commitment to ethical behavior in the digital domain.
     cd Logikey
     sudo chmod +x logikey.sh
 
+# Run
+    ./logikey.sh
+OR
+    🖱 Right-click > execute
+
 # Clean your workstation
 ⚠ Remember to change the variable 'chemin' so that cleanup.sh is tailored to logikey.sh
 
