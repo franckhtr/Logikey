@@ -39,3 +39,58 @@ or 🖱 right-click > Execute
     chmod +x cleanup.sh
     ./cleanup.sh
 
+
+
+
+
+
+# Documentation en français 🐓
+
+# Logikey
+Un programme Keylogger en bash pour les étudiants en cybersécurité
+
+# Prévention
+Ce programme Keylogger, spécialement conçu pour Linux en utilisant le script bash, sert d'outil d'exploration éducative dans le domaine de la cybersécurité. Il est destiné aux étudiants et aux passionnés pour comprendre les mécanismes derrière le keylogging et explorer des méthodes de défense contre de telles intrusions.
+
+Cependant, il est impératif de souligner que ce programme ne doit en aucun cas être utilisé à des fins malveillantes ou de surveillance non autorisée. S'engager dans toute forme d'accès non autorisé à des informations personnelles ou sensibles est illégal et contraire à l'éthique.
+
+En tant que tel, nous déconseillons fortement l'utilisation de ce programme pour des activités violant les droits à la vie privée, les lois ou les normes éthiques. Le respect des principes de confidentialité et de sécurité est primordial dans le domaine de la cybersécurité.
+
+Veuillez utiliser cet outil de manière responsable et exclusivement à des fins éducatives, contribuant ainsi positivement à votre compréhension et à votre développement de compétences en cybersécurité.
+
+Merci pour votre engagement en faveur d'un comportement éthique dans le domaine numérique.
+
+# Comment ça marche ?
+Installation cachée de Python et des modules nécessaires.
+Création d'un script Python caché '.keylogger.py'. Par défaut dans /tmp.
+Création d'un fichier texte caché '.log.txt'. Par défaut dans /tmp.
+Lancement du script '.keylogger.py'. Le script enregistre toutes les frappes au clavier tapées par l'utilisateur et les enregistre dans le fichier texte.
+
+# Installation
+
+    git clone https://github.com/franckhtr/Logikey.git
+    cd Logikey
+    sudo chmod +x logikey.sh
+
+
+# Exécution
+
+    ./logikey.sh
+ou 🖱 clic droit > Exécuter
+
+# Accéder au fichier log.txt
+
+    cd /tmp #ou la valeur de 'chemin'
+    ls -a
+    cat .log.txt
+
+# Nettoyer votre poste de travail
+⚠ N'oubliez pas de modifier la variable 'chemin' afin que cleanup.sh soit adapté à logikey.sh
+
+    cd Logikey
+    chmod +x cleanup.sh
+    ./cleanup.sh
+
+
+
+
