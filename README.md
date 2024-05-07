@@ -11,3 +11,10 @@ As such, we strongly advise against using this program for any activities that v
 Please use this tool responsibly and exclusively for educational purposes, contributing positively to your understanding and skill development in cybersecurity.
 
 Thank you for your commitment to ethical behavior in the digital domain.
+
+# Installation
+    git clone https://github.com/franckhtr/Logikey.git
+    cd Logikey
+    sudo chmod +x logikey.sh
+
+
