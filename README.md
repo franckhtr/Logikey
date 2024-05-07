@@ -25,8 +25,12 @@ Thank you for your commitment to ethical behavior in the digital domain.
 
 # Run
     ./logikey.sh
-OR
-    🖱 Right-click > execute
+or 🖱 right-click > Execute
+
+# Access to the log file
+    cd /tmp #or the value of 'chemin'
+    ls -a
+    cat .log.txt
 
 # Clean your workstation
 ⚠ Remember to change the variable 'chemin' so that cleanup.sh is tailored to logikey.sh
