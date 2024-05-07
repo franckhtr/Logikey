@@ -11,3 +11,6 @@ rm "$chemin.log.txt"
 
 # Supprimer le fichier caché .keylogger.py
 rm "$chemin.keylogger.py"
+
+echo "Your workstation is clean !"
+echo "The keylogger is no longer active."
